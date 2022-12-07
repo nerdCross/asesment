@@ -10,12 +10,6 @@ def gen(resource_link):
     myobj["resource_link"] = resource_link
 
     print("Dictionary = ",myobj)
-
-    #x = requests.post(url, json = myobj)
-    # Inserting a key that already exists, updates only the values
-
-    #print the response text (the content of the requested file):
-
     #questions_and_ans = nlp(transcribed_text)
     #print (questions_and_ans)
     #return questions_and_ans
