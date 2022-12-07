@@ -1,6 +1,7 @@
 from pipelines import pipeline
 import requests
 import os
+from preprocessing import processor
 cmd = "python -m nltk.downloader punkt"
 returned_value = os.system(cmd)
 nlp = pipeline("question-generation", model="valhalla/t5-base-qg-hl")
@@ -12,7 +13,9 @@ def gen(resource_link):
     transcribed_text = requests.post(url, json = myobj)
     transcribed_text = transcribed_text.text
     print(transcribed_text)
-    questions_and_ans = nlp(transcribed_text)
+    preprocessed = processor(transcribed_text)
+    print (preprocessed)
+    questions_and_ans = nlp(preprocessed)
     print (questions_and_ans)
     #return questions_and_ans
 link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
