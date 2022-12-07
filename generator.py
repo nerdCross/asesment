@@ -8,10 +8,12 @@ def gen(resource_link):
     url = 'http://3.8.100.147/transpile/'
     myobj = {"resource_link": "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample3.wav"}
     myobj["resource_link"] = resource_link
-
     print("Dictionary = ",myobj)
-    #questions_and_ans = nlp(transcribed_text)
-    #print (questions_and_ans)
+    transcribed_text = requests.post(url, json = myobj)
+    transcribed_text = transcribed_text.text
+    print(transcribed_text)
+    questions_and_ans = nlp(transcribed_text)
+    print (questions_and_ans)
     #return questions_and_ans
 link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
 gen(link)
