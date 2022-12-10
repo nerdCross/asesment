@@ -14,10 +14,10 @@ for idx, word in enumerate(li):
         sentences.append(word)
     if "." in word:
         character_len =0
-        sentences.append(" \n ")
+        #sentences.append(" \n ")
         page.append(sentences)
         sentences = []
-    elif character_len>=150:
+    elif character_len==100:
         character_len = 0
         sentences.append(" \n")
         page.append(sentences)
@@ -28,7 +28,7 @@ f = open("demo.txt", "w")
 for p in page:
     w = ' '.join(p)
     f.write(w.strip())
-    f.write("\\")
+    #f.write("\\")
     f.write("\n")
     # s = s+" "+w.strip()
 
