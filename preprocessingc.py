@@ -37,8 +37,3 @@ f.close()
 f = open("demo.txt", "r")
 var = f.read()
 print(var)
-""" it will slpint "\n" new line when character_len==100:
-    it willcount and seperate the using the """ 
-    
-
- """
