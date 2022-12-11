@@ -1,2 +1,8 @@
 python -m nltk.downloader punkt
 uvicorn main:app --reload
+
+step 1. get the data transcribed.
+step 2.        get the data preprocessed
+                    slit it into batch 70 words per line.
+                    take the split count the stentences.
+                    if the sentence is prime
