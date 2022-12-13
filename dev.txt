@@ -1,4 +1,4 @@
-python -m nltk.downloader punkt
+python3 -m nltk.downloader punkt
 uvicorn main:app --reload
 
 
@@ -25,7 +25,7 @@ sudo systemctl start assessment.service
 cd  
 cd smart_assessment/
 source assessment/bin/activate
-python -m nltk.downloader punkt
+python3 -m nltk.downloader punkt
 
 sudo service nginx restart
 uvicorn main:app --reload
