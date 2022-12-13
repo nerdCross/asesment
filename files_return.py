@@ -29,7 +29,7 @@ def returnthefiles(path):
     return list
                     #print(type(list))
     #########
-path = "assessment_index" #i will have to comment this out and get the real path in which will contain the index concatenated with the path.
+#path = "assessment_index" #i will have to comment this out and get the real path in which will contain the index concatenated with the path.
 
-table = returnthefiles(path)
-print (table)
+#table = returnthefiles(path)
+#print (table)
