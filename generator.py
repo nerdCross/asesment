@@ -32,6 +32,8 @@ def gen(resource_link,unique_id):
     print(the_textfiles)
     #questions_and_ans = nlp(preprocessed)
     #print (questions_and_ans)
+    return  print(the_textfiles)
+
     #return questions_and_ans
 link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
 unique_id = "asdfjhagerfiwenqrg"
