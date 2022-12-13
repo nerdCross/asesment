@@ -3,11 +3,12 @@ import requests
 from pre_parse import parseWords
 # import OS module
 import os
+from files_return import returnthefiles
  
 # This is my path
-path = " "
+#path = " "
 # to store files in a list
-list = []
+#list = []
 #########
 #cmd = "python -m nltk.downloader punkt"
 #returned_value = os.system(cmd)
@@ -20,10 +21,11 @@ def gen(resource_link,unique_id):
     transcribed_text = requests.post(url, json = myobj)
     transcribed_text = transcribed_text.text
     print(transcribed_text)
-    path_to_directory = parseWords(transcribed_text)
+    path_to_directory = parseWords(transcribed_text,unique_id)
     path_to_directory = path_to_directory + unique_id
+    print(path_to_directory)
     #after the preprocessing is done now get all the text files and store the questions and ans in a list.
-    
+    path_to_text_files = returnthefiles(path_to_directory)
 
     print (path_to_directory)
     #questions_and_ans = nlp(preprocessed)
