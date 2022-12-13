@@ -1,0 +1,5 @@
+setup ssl.
+setup static ip address.
+setup multiprocessing.
+
+setup the user interface to test the assesment A.I
