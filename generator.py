@@ -1,6 +1,5 @@
 from pipelines import pipeline
 import requests
-import os
 from pre_parse import parseWords
 # import OS module
 import os
@@ -10,8 +9,8 @@ path = " "
 # to store files in a list
 list = []
 #########
-#cmd = "python -m nltk.downloader punkt"
-#returned_value = os.system(cmd)
+cmd = "python -m nltk.downloader punkt"
+returned_value = os.system(cmd)
 nlp = pipeline("question-generation", model="valhalla/t5-base-qg-hl")
 def gen(resource_link):
     url = 'http://35.179.12.250/transpile/'
