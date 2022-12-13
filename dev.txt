@@ -1,3 +1,40 @@
 python -m nltk.downloader punkt
 uvicorn main:app --reload
 
+
+===================================SSH restart script transcribe ===============================================
+#!/bin/bash
+sudo systemctl start nginx
+cd /etc/systemd/system
+sudo systemctl start trans.service
+cd  .
+cd smart_transcribe/
+source trans/bin/activate
+sudo service nginx restart
+uvicorn main:app --reload
+
+
+===================================SSH restart script transcribe  ===============================================
+
+
+===================================SSH restart script assessment ===============================================
+#!/bin/bash
+sudo systemctl start nginx
+cd /etc/systemd/system
+sudo systemctl start assessment.service
+cd  
+cd smart_assessment/
+source assessment/bin/activate
+python -m nltk.downloader punkt
+
+sudo service nginx restart
+uvicorn main:app --reload
+
+
+===================================SSH restart script assessment  ===============================================
+
+error 
+ERROR:    [Errno 98] Address already in use
+
+solution 
+sudo lsof -t -i tcp:8000 | xargs kill -9

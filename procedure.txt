@@ -1,0 +1,4 @@
+consume the transpiler API
+preprocess text 
+use the text to generate questions and ans.
+return the generated questiona and ans.
