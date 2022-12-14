@@ -22,7 +22,6 @@ def gen(resource_link,unique_id):
     transcribed_text = transcribed_text.text
     #print(transcribed_text)
     path_to_directory = parseWords(transcribed_text,unique_id)
-    path_to_directory = path_to_directory + unique_id
     #print(path_to_directory)
     #after the preprocessing is done now get all the text files and store the questions and ans in a list.
     #path_to_text_files = returnthefiles(path_to_directory)
@@ -40,9 +39,11 @@ link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
 unique_id = "asdfjhagerfiwenqrg"
 path = gen(link,unique_id)
 
-thepath = '"'+path+'"'
+thepath = path
+# print(type(path))
 tab = returnthefiles(thepath)
 print(tab)
+# print(os.listdir(thepath))
 #print(type(path))
 #print(str(path))
 #dirname = os.path.dirname(path)

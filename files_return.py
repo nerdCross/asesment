@@ -12,9 +12,10 @@ import os
 #             #print (list)
 #             #print(type(list))
 # print (list)
-list = []
+# list = []
 
 def returnthefiles(path):
+    list = []
     # This is my path
     #path = "assessment_index" #i will have to comment this out and get the real path in which will contain the index concatenated with the path.
     # to store files in a list
@@ -27,13 +28,10 @@ def returnthefiles(path):
                     #print(path+"/"+f)
     #print(list)
     #print(list)
-    return list
+    return (list)
     #print(type(list))
     #########
 #path = "assessment_index" #i will have to comment this out and get the real path in which will contain the index concatenated with the path.
 #path = "assessment_asdfjhagerfiwenqrg"
 #tab = returnthefiles(path)
 #print(tab)
-
-
-dir_list = os.listdir(path)
