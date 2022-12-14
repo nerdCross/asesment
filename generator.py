@@ -30,23 +30,38 @@ def gen(resource_link,unique_id):
     #the_textfiles = returnthefiles(path_to_directory)
     #print(the_textfiles)
     #questions_and_ans = nlp(preprocessed)
+    #f = open(file_path+"/"+"demo.txt", "w")
+    #var = f.read()
     #print (questions_and_ans)
     #return  print(the_textfiles)
     return path_to_directory
 
     #return questions_and_ans
-link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
-unique_id = "asdfjhagerfiwenqrg"
-path = gen(link,unique_id)
+#link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
+#unique_id = "asdfjhagerfiwenqrg"
+#path = gen(link,unique_id)
 
-thepath = path
+#thepath = path
 # print(type(path))
-tab = returnthefiles(thepath)
-print(tab)
-# print(os.listdir(thepath))
-#print(type(path))
-#print(str(path))
-#dirname = os.path.dirname(path)
-#dir = str(path)
+#tab = returnthefiles(thepath)
+#print(tab)
 
-#ft = "assessmenlist = []
+def assesment():
+    link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
+    unique_id = "asdfjhagerfiwenqrg"
+    path = gen(link,unique_id)
+    tab = returnthefiles(path)
+    # getting length of list
+    #length = len(tab)
+    print(tab)
+
+    # Iterating the index
+    # same as 'for i in range(len(list))'#
+    for i in tab:
+        print (i)
+
+assesment()
+
+
+
+
