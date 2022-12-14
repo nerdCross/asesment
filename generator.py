@@ -62,10 +62,10 @@ def assesment():
         f = open(i, "r")
         var = f.read()
         print(var)
-        #print (questions_and_ans)
-        #questions_and_ans = nlp(preprocessed)
-
-
+        questions_and_ans = nlp(var)
+        print ("?????????"+i)
+        print (questions_and_ans)
+        
 assesment()
 
 
