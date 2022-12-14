@@ -58,7 +58,13 @@ def assesment():
     # Iterating the index
     # same as 'for i in range(len(list))'#
     for i in tab:
-        print (i)
+        #print (i)
+        f = open(i, "r")
+        var = f.read()
+        print(var)
+        #print (questions_and_ans)
+        #questions_and_ans = nlp(preprocessed)
+
 
 assesment()
 
