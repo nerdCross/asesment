@@ -17,24 +17,35 @@ def gen(resource_link,unique_id):
     url = 'http://35.179.12.250/transpile/'
     myobj = {"resource_link": "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample3.wav"}
     myobj["resource_link"] = resource_link
-    print("Dictionary = ",myobj)
+    #print("Dictionary = ",myobj)
     transcribed_text = requests.post(url, json = myobj)
     transcribed_text = transcribed_text.text
-    print(transcribed_text)
+    #print(transcribed_text)
     path_to_directory = parseWords(transcribed_text,unique_id)
     path_to_directory = path_to_directory + unique_id
     #print(path_to_directory)
     #after the preprocessing is done now get all the text files and store the questions and ans in a list.
-    path_to_text_files = returnthefiles(path_to_directory)
+    #path_to_text_files = returnthefiles(path_to_directory)
 
-    print (path_to_directory)
-    the_textfiles = returnthefiles(path_to_directory)
-    print(the_textfiles)
+    #print("here:", path_to_text_files )
+    #the_textfiles = returnthefiles(path_to_directory)
+    #print(the_textfiles)
     #questions_and_ans = nlp(preprocessed)
     #print (questions_and_ans)
-    return  print(the_textfiles)
+    #return  print(the_textfiles)
+    return path_to_directory
 
     #return questions_and_ans
 link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
 unique_id = "asdfjhagerfiwenqrg"
-gen(link,unique_id)
+path = gen(link,unique_id)
+
+thepath = '"'+path+'"'
+tab = returnthefiles(thepath)
+print(tab)
+#print(type(path))
+#print(str(path))
+#dirname = os.path.dirname(path)
+#dir = str(path)
+
+#ft = "assessmenlist = []

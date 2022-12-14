@@ -1,0 +1,2 @@
+fop = '"'+"poor"+'"'
+print(fop)
