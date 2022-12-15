@@ -28,7 +28,7 @@ def parseWords(inp,unique_id):
     var = f.read()
 
     def getDivisor(n):
-        for i in range(5, 6):
+        for i in range(10, 13):
             if n%i == 0:
                 return i
         return getDivisor(n-1)
