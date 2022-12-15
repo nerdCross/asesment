@@ -1,35 +1,47 @@
-" Welcome to the second lesson of the course, Doing Presentations Like A Pro. This course is designed to help you elevate
-your presentation game. In the first lesson, we learnt about the rudiments of academic presentations. We saw that these
-presentations are important to promote knowledge, creation, as they facilitate cross-fortalization of ideas. We also
-identified poster and oral presentations as the two main types of presentation. In the second lesson, we shall focus on
-poster presentations. We will consider the format, content, organization, words, fonts, colors, and printing required
-for a good poster. To start with, a poster is a visual representation of an idea or research finding to be disseminated to
-an audience. One of the most common standard sizes of poster is the A zero paper size with dimension 841 by 1189 mm. Or, 33.1
-by 46.8 inches. In doing a poster presentation, the presenter would usually take about 5 minutes to speak to the poster and
-then stand by for questions. The number of questions a poster presentation generates can be a deciding factor for its success.
-That is to say, you will know how successful your poster presentation is if it generates a lot of questions afterwards. This
-would be an indication that your poster is interesting to people and that people are interested in the thoughts you are trying
-to share in that poster. The choice of poster formats is usually left for the presenter. Of course, there are some events
-where you would be given a standard poster format, but in most cases you are allowed to choose what you like. All kinds of templates
-can be downloaded online and adapted for use as a property. You can feel free to get and tweak any format of interest you can
-find on the internet. So, you are just edit templates of format you find, you adjust them to your own taste. Next, the creation
-of a poster will usually include title, summary, brief introduction, in-s and objectives, methodology, result, discussion
-and conclusion. You have to ensure you do justice to each part. Inorganizing the content of a poster, headings, numbering,
-bullets, graphics and blank spaces should all be appropriately deployed for maximum impact. This can be a real game changer.
-Since the poster is mostly visual, words should only be used when necessary. Having too many words or words in unnecessary
-places in your poster can be a disaster. Wordy posters can be boring. So, they should be avoided by all means. In addition,
-font style and size should be carefully chosen for the desired impact. Color combination is another crucial factor in a
-poster. This is particularly important because the kinds of colors used can determine whether the poster will be good enough
-to attract attention after printing. Marova, good quality printing is important. If you think of how your poster will appear,
-after printing, right from the moment you set out to design the poster. So, this is all about keeping the end in view. You do
-not want to choose formats or design templates or color combinations that will not be good after you print as a recap. The
-poster presentation has a lot to do with a poster and as such, can you be taking to make good decisions about key features that
-I stated before, like format, content, organization and the printing. A masterful interplay of all these components will
-set your poster presentation apart. So, you want to show yourself as the master. You want to show yourself as a pro you are
-supposed to be. Now that you have these great ideas, you have to implement them. They must not remain in the realm of ideas
-in your head. You have to capitalize on the lessons you have learned, on the tips you have got from this lesson. So, that you
-can be an expert poster presenter. So, that you can be that poster presenter that people look up to. So, that you can be that
-person that people get ideas from. What you make presentations should be able to get ideas for making their own posters in
-the future. And that is why this lesson has been put across to you right now. And you want to definitely make the most of this
-opportunity you have to be a master poster designer, to be a master poster presenter, and to be an inspiring one while at it.
-Until I see you in the next lesson. Thank you very much for paying attention. Make sure you turn people's head the next time
+" Hello, welcome to the Cospitude doing presentations like the Pro, where we are going to consider 10 interesting lessons.
+I am very sure that anything you want to do, you want to be seen as the expert, you want to be seen as the professional who is actually
+good at what he does. And when it comes to the idea of presentations, you want to actually show that you know exactly what you
+are doing. In the first lesson, we will consider the rudiments of academic presentation, which will answer the questions
+of words, why, where, who and how, as far as academic presentations are concerned, we will get to investigate the basics,
+the fundamentals, the things that really form the crux of academic presentations. Get into it, what is academic presentation?
+Academic presentation involves a speaker sharing academic knowledge or discoveries with an audience. Such a presentation
+can be about the findings of a research, which expand the body of knowledge in a given subject matter. Academic presentations
+can be informed of posters and they could be delivered orally without a deck of slides. So when you give academic presentations,
+you are actually presenting new ideas or you are presenting all the ideas in a new way or you are trying to expound an idea that
+has always been and that can be done through graphic methods like posters or you can actually talk about those things using
+slides. Do why academic presentations are necessary? It is important to note that it helps to promote education by encouraging
+the cross-fotalization of ideas. The beauty of a speaker making a presentation is basically to arouse the curiosity of
+the audience such that intelligent questions are asked and answered. So when you make a presentation, what you are trying
+to do is that you want to get people interested in the thoughts you are sharing. You want them to investigate further into
+the idea you are presenting to them. Considering where academic presentations take place, we can easily identify places
+like classrooms, seminars, webinars, workshops and conferences. All these are various avenues for knowledge dissemination.
+So in short, wherever knowledge is disseminated, you have a platform, you have a good platform to make academic presentations.
+You have a platform to share your ideas in such settings. Next, who should give academic presentations? The answer to this
+would basically be everyone who is involved in the knowledge creation process. Of course, the consumers of knowledge are
+basically students and one way to find out is they are really guessing what is the thought of them is to make them make presentations
+is to give them platforms to present what they have learned. By so doing, we can actually know how far and how fast they are
+imbibing the ideas that have been sold to them. Teachers are also very important. People that should make presentations.
+Of course, by the very essence of their job description, we have to present new kinds of information to their students. And
+that is teaching on its own can be said to be a form of academic presentation. And the principles of academic presentation
+should actually be useful in that process. Researchers are also people that are important in giving academic presentations.
+As they go about investigating things as they try to see the causes and effects of setting phenomena, by the time they arrive
+at whatever findings they arrive at, they should be able to disseminate the information because it is important to note
+that any research that has been made, they have no bearing on society is actually an exercise in futility. So researchers
+having discovered things in the course of their duties should actually make academic presentations to share the ideas
+to sell the ideas for the promotion of knowledge. Policy makers are also important stakeholders in the knowledge creation
+process who should make presentations in most places. One research has conducted their research and have got different
+kinds of findings. They are usually expected to come up with policies statements which are presented to say lawmakers that
+can actually make legislations around these things. Such people who get to their point of making policies should actually
+make their presentations because in making laws for instance, presentations are made and people get to debate all of this
+points before legislations are formed that are accepted for implementation in society. Finally, we look at how academic
+presentations should be and with that say, I think academic presentations should be clear, they should be concise and captivating.
+In other words, academic presentations should be easy to understand. That is the element of clarity. Why you make a presentation?
+Nobody should be in doubt as to what you are saying. The idea should be clear enough to everyone. Academic presentations
+also should contain every necessary information in as few words as possible. This talks about conciseness. We do not use
+words unnecessarily, anywhere that is not important in your presentation is better removed. You have enough words to describe
+what you are talking about in such a way that the idea you are selling is actually comprehensive. Academic presentations
+should also arouse the interest of listeners. So a successful presentation is one that makes people who are listening to
+you to actually want to investigate further what you have told them in summary. We have seen the definition of academic presentations,
+why they are necessary, the context in which they are necessary, who should make such presentations and how pro-levels
+presentations should be. To learn all this information, I am sure you will give smashing presentations going forward.
+When next year on opportunity, you definitely want to put up your A game so that your presentations can be clear, concise

@@ -1,0 +1,11 @@
+''' 
+" So, you are just edit templates of format you find, you adjust them to your own taste.
+Next, the creation
+of a poster will usually include title, summary, brief introduction, in-s and objectives, methodology, result, discussion
+and conclusion.
+You have to ensure you do justice to each part.
+Inorganizing the content of a poster, headings, numbering,
+bullets, graphics and blank spaces should all be appropriately deployed for maximum impact.
+This can be a real game changer.
+Since the poster is mostly visual, words should only be used when necessary.
+''' 

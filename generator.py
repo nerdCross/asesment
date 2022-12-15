@@ -12,7 +12,7 @@ from files_return import returnthefiles
 #########
 #cmd = "python -m nltk.downloader punkt"
 #returned_value = os.system(cmd)
-nlp = pipeline("question-generation", model="valhalla/t5-base-qg-hl")
+#nlp = pipeline("question-generation", model="valhalla/t5-base-qg-hl")
 def gen(resource_link,unique_id):
     url = 'http://35.179.12.250/transpile/'
     myobj = {"resource_link": "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample3.wav"}
@@ -46,9 +46,12 @@ def gen(resource_link,unique_id):
 #tab = returnthefiles(thepath)
 #print(tab)
 
+nlp = pipeline("question-generation", model="valhalla/t5-base-qg-hl",qg_format="prepend")
+
 def assesment():
     link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample5.wav"
-    unique_id = "asdfjhagerfiwenqrg"
+    #link = "https://relen.s3.us-east-2.amazonaws.com/audio/samples/sample4.wav"
+    unique_id = "asdfjhagkerf-0enqrge=prepend_format"
     path = gen(link,unique_id)
     tab = returnthefiles(path)
     # getting length of list
@@ -65,7 +68,7 @@ def assesment():
         questions_and_ans = nlp(var)
         print ("?????????"+i)
         print (questions_and_ans)
-        
+
 assesment()
 
 

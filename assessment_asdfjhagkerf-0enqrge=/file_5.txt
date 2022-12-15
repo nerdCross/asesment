@@ -1,0 +1,10 @@
+''' 
+" Wordy posters can be boring.
+So, they should be avoided by all means.
+In addition,
+font style and size should be carefully chosen for the desired impact.
+Color combination is another crucial factor in a
+poster.
+This is particularly important because the kinds of colors used can determine whether the poster will be good enough
+to attract attention after printing.
+''' 

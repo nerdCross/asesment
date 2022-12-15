@@ -1,19 +1,25 @@
 ''' 
-" Welcome to the second lesson of the course, Doing Presentations Like A Pro.
-This course is designed to help you elevate
-your presentation game.
-In the first lesson, we learnt about the rudiments of academic presentations.
-We saw that these
-presentations are important to promote knowledge, creation, as they facilitate cross-fortalization of ideas.
-We also
-identified poster and oral presentations as the two main types of presentation.
-In the second lesson, we shall focus on
-poster presentations.
-We will consider the format, content, organization, words, fonts, colors, and printing required
-for a good poster.
-To start with, a poster is a visual representation of an idea or research finding to be disseminated to
-an audience.
-One of the most common standard sizes of poster is the A zero paper size with dimension 841 by 1189 mm.
-Or, 33.1
-by 46.8 inches.
+" Hello, welcome to the Cospitude doing presentations like the Pro, where we are going to consider 10 interesting lessons.
+I am very sure that anything you want to do, you want to be seen as the expert, you want to be seen as the professional who is actually
+good at what he does.
+And when it comes to the idea of presentations, you want to actually show that you know exactly what you
+are doing.
+In the first lesson, we will consider the rudiments of academic presentation, which will answer the questions
+of words, why, where, who and how, as far as academic presentations are concerned, we will get to investigate the basics,
+the fundamentals, the things that really form the crux of academic presentations.
+Get into it, what is academic presentation?
+Academic presentation involves a speaker sharing academic knowledge or discoveries with an audience.
+Such a presentation
+can be about the findings of a research, which expand the body of knowledge in a given subject matter.
+Academic presentations
+can be informed of posters and they could be delivered orally without a deck of slides.
+So when you give academic presentations,
+you are actually presenting new ideas or you are presenting all the ideas in a new way or you are trying to expound an idea that
+has always been and that can be done through graphic methods like posters or you can actually talk about those things using
+slides.
+Do why academic presentations are necessary?
+It is important to note that it helps to promote education by encouraging
+the cross-fotalization of ideas.
+The beauty of a speaker making a presentation is basically to arouse the curiosity of
+the audience such that intelligent questions are asked and answered.
 ''' 
