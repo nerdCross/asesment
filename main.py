@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from generator import gen
-from pre_parse import parseWords
+from generator import assesment
+#from pre_parse import parseWords
+
 from fastapi.openapi.utils import get_openapi
 from fastapi.openapi.docs import (
     get_redoc_html,
@@ -47,7 +48,7 @@ def custom_openapi():
         return app.openapi_schema
     openapi_schema = get_openapi(
         title="RELEN Smart Assessment API documentation",
-        version="0.0.1",
+        version="0.0.2",
         description="This API and Documentation was developed by processor",
         routes=app.routes,
     )
@@ -60,8 +61,12 @@ def custom_openapi():
 
 app.openapi = custom_openapi
 
-class Address(BaseModel):
-    resource_link: str
+
+
+class Item(BaseModel):
+    link: str
+    item_id: str
+   
 
 @app.get("/")
 async def root():
@@ -71,8 +76,18 @@ async def root():
 
 
 
-@app.post("/generate/")
-async def transpile(address: Address):
-    print(address.resource_link)
-    data = gen(address.resource_link)
-    return data
+@app.post("/items/")
+async def create_item(item: Item):
+    print(item)
+    link = item.link
+    unique_id = item.item_id
+    result = assesment(link, unique_id)
+    #total = assesment(link,unique_id)
+    #print(" total type  Below")
+    #print(type(total))
+    #print(" total   Below")
+    #print(total)
+
+    #item["resource_link"] = resource_link.resource_link
+
+    return result
