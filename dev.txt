@@ -16,7 +16,19 @@ uvicorn main:app --reload
 
 ===================================SSH restart script transcribe  ===============================================
 
+[Unit]
+Description=Smart assesment instance
+After=network.target
 
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/asesment
+Environment="PATH=/home/ubuntu/asesment/assesment/bin"
+ExecStart=/home/ubuntu/asesment/assesment/bin/uvicorn main:app --reload
+
+[Install]
+WantedBy=multi-user.target
 ===================================SSH restart script assessment ===============================================
 #!/bin/bash
 sudo systemctl start nginx
