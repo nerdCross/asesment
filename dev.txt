@@ -1,6 +1,6 @@
 python3 -m nltk.downloader punkt
 uvicorn main:app --reload
-
+sudo lsof -t -i tcp:8000 | xargs kill -9
 
 ===================================SSH restart script transcribe ===============================================
 #!/bin/bash
