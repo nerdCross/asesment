@@ -1,0 +1,13 @@
+[Unit]
+Description=Uvicorn instance to serve assesment
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/asesment
+Environment="PATH=/home/ubuntu/env/bin"
+ExecStart=/home/ubuntu/env/bin/uvicorn main:app
+
+[Install]
+WantedBy=multi-user.target
